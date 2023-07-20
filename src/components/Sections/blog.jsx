@@ -1,10 +1,5 @@
 import React, {useEffect, useState} from "react";
-// import { Styled } from "styled-components/dist/constructors/constructWithOptions";
-// components
-// import BlogBox from "../Elements/BlogBox";
 import BlogBox from "../Elements/BlogBox";
-import TestimonialSlider from "../Elements/TestimonialSlider";
-// import TestimonialSlider from "../Elements/TestimonialSlider";
 import { db } from "../../firebase";
 import { collection, getDocs } from "firebase/firestore";
 import { styled } from "styled-components";
